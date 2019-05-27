@@ -1,0 +1,2 @@
+layers 			= ['SiO2' , 'ITO' , 'PTAA'  ,  '2C_GQ' , 'PCBM' , 'BCP' , 'Au']
+thicknesses		      = [0      , 125   ,  5    ,  550       , 40     , 5     , 100]

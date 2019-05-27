@@ -1,0 +1,7 @@
+ld config.xml
+cd Generation_profiles/PTAA_2C
+lg 550nm.txt
+cd 001_default
+sd
+dv
+q

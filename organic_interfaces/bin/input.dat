@@ -1,0 +1,7 @@
+ld config.xml
+cd Generation_profiles
+lg PCBM_PTB7.txt
+cd 001_default
+sd
+dv
+q

@@ -1,0 +1,62 @@
+<? Solar Cell Simulation - always start building stack from cathode/ETL/active/HTL/anode ?>
+<document>
+	<Device
+			activeLayer = "0"
+			T="293"
+			dt="1.00e-10"
+			V_a="0.00"
+			V_build="0.8"
+			G_suns="8.10e-01"
+			W_a="-4.05"
+			W_c="-4.85"
+			epsilon="1.00e-6"
+	/>
+	<PTB7_PCBM
+		 	E_r="3.90" 
+			u_n="2.80e-07" 
+			u_p="5.20e-08" 
+			u_s="1.00e-07"
+			E_b="0.1055" 
+			y_ns="1.00e-14"
+			y_ps="1.00e-14"
+			t_s="1.00e-05" 
+			L="1.00e-07" 
+			N_points="50"
+			E_c="-3.90e+00" 
+			E_v="-5.12e+00" 
+			N_D="0"
+			N_A="0"
+			N_c="2.50e+25" 
+			N_v="2.50e+25" 
+			ksi="1E-2" 
+	/>
+	<PEDOT 
+		 	E_r="3.90" 
+			u_n="5.000e-05" 
+			u_p="5.000e-05" 
+			u_s="0.00"
+			E_b="0.00" 
+			y_ns="0.00"
+			y_ps="0.00"
+			t_s="1.00e-05" 
+			L="4.000e-08" 
+			N_points="30"
+			E_c="-3.00e+00" 
+			E_v="-5.00e+00" 
+			N_D="0"
+			N_A="0"
+			N_c="2.50e+25" 
+			N_v="2.50e+25" 
+			ksi="1E-4" 
+	/>
+	<Settings
+			first_pulse_time="8E-6" 
+			second_pulse_time="8E-6"
+			third_pulse_time="8E-6" 
+			V_min="-0.21"
+			V_max="1.0" 
+			V_step="0.03"
+			V_rate="200000"
+	/>
+</document>
+

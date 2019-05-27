@@ -1,0 +1,8 @@
+<? Solar Cell Simulation ?>
+<document>
+	<Device T="2.930e+02" dt="1.000e-10" V_a="0.000e+00" V_build="8.000e-01" G_suns="8.100e-01" W_a="-4.050e+00" W_c="-4.850e+00" epsilon="1.000e-06"/>
+	<PTB7_PCBM name="PTB7_PCBM" ID="0" E_r="3.900e+00" u_n="2.800e-07" u_p="5.200e-08" u_s="1.000e-07" E_b="1.055e-01" y_ns="1.000e-14" y_ps="1.000e-14" t_s="1.000e-05" L="1.000e-07" N_points="5.000e+01" E_c="-3.900e+00" E_v="-5.120e+00" N_D="0.000e+00" N_A="0.000e+00" N_c="2.500e+25" N_v="2.500e+25" ksi="1.000e-02"/>
+	<PEDOT name="PEDOT" ID="1" E_r="3.900e+00" u_n="5.000e-05" u_p="5.000e-05" u_s="0.000e+00" E_b="0.000e+00" y_ns="0.000e+00" y_ps="0.000e+00" t_s="1.000e-05" L="4.000e-08" N_points="3.000e+01" E_c="-3.000e+00" E_v="-5.000e+00" N_D="0.000e+00" N_A="0.000e+00" N_c="2.500e+25" N_v="2.500e+25" ksi="1.000e-04"/>
+	<Settings first_pulse_time="8.000e-06" second_pulse_time="8.000e-06" third_pulse_time="8.000e-06" V_min="-2.100e-01" V_max="1.000e+00" V_rate="2.000e+05" V_step="3.000e-02"/>
+</document>
+
